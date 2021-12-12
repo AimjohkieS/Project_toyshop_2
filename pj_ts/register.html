@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--คลาสรูปสีขาวพื้นหลังรูปพี่หมี-->
+    <form name="form1" method="post" action="saveregister.php">
+    <div class="login-wrapper">
+        
+        <!--คลาสรูปพี่หมี-->
+        <div class="login-left">
+            <img src="img/Teddy-Bear.jpg"> 
+            <div class="h1">Click to REGISTER</div> 
+        </div>    
+
+        <div class="login-right">
+            <div class="h2">Register</div>
+
+        <div class="form-group">
+                <input type="text" name="username" id="username" placeholder="Username">
+                <label for="username">Username</label>
+            </div>
+
+            
+       <div class="form-group">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <label for="Password">Password</label>
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="ชื่อ">
+            <label for="name">Name</label>
+        </div>
+
+
+        <div class="form-group">
+            <input type="text" name="address" id="address" placeholder="ที่อยู่">
+            <label for="Email">Address</label>
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="tel" id="tel" placeholder="เบอร์โทรศัพท์">
+            <label for="Address">Tel</label>
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="email" id="email" placeholder="อีเมลล์">
+            <label for="Telephone">Email</label>
+        </div>
+
+        
+            <div class="button-area">
+                <input type="submit" style="color: white; background-color: rgb(56, 216, 165); margin-left:300px; width: 30rem;"class="btn btn" id="btn"  name="Submit" value="Register">
+                <input type="hidden" name="Member" id="Member" value="Member">
+                <!--<button class="btn btn-primary">Sign Up</button>-->
+            </div>     
+    </div>
+
+
+    <script src="script.js"></script>
+
+</form>
+</body>
+</html>
